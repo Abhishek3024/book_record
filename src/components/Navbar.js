@@ -7,9 +7,7 @@ const Navbar = () => {
 			<div className="container">
 				<Link to="/" className="brand-logo black-text maintitle">HI LIB</Link>
 				<div className="right">
-					<span className="myLink3"> CHETAN BHAGAT {"  "}  </span>
-					<span className="myLink3"> AMISH TRIPATHI {" "} </span>
-					<span className="myLink3"><Link to="/authors"> MORE</Link></span>
+					<span className="myLink3"><Link to="/authors"> Authors</Link></span>
 			
 				</div>
 			</div>

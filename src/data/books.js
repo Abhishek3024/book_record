@@ -1,4 +1,4 @@
-const books = {
+let books = {
 	BAcyDyQwcXX: {
 		id: 'BAcyDyQwcXX',
 		title: 'Nawabs, Nudes and Noodles ',
@@ -140,6 +140,5 @@ const books = {
 		image_url:'https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Fifty_Shades_Freed_book_cover.png/220px-Fifty_Shades_Freed_book_cover.png',
 	}
 };
-
 
 export default books;

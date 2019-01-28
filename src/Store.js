@@ -4,11 +4,14 @@ import rootReducer from './reducers/index';
 
 import books from './data/books';
 
-const defaultState = {
-	books
+import authors from './data/authors';
+
+const initialState = {
+	books,
+	authors
 };
 
-const store = createStore(rootReducer,defaultState);
+const store = createStore(rootReducer, initialState);
 
 //export const history = syncHistoryWithStore(browserHistory,store);
 

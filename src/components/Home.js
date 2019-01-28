@@ -11,6 +11,7 @@ class Home extends Component{
     	
         <div className="container">
             <div className="row">
+                <p className="grey-text subtitle center">Books For You...</p>
             	{Object.keys(books).map((id) => (
                     <div key={id} className="col m4">
                         <div className="card large grey lighten-3">

@@ -109,6 +109,15 @@ code {
   margin-left: 10px;
 }
 
+.myCard{
+  height: 1200px;
+}
 .material-icons{
   cursor: pointer;
+}
+
+.myimg3{
+  height: 300px;
+  width: 300px;
+
 }
